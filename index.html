@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanishk Ahuja - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+        <button class="open-popup" id="open">Socials</button>
+        <div class="popup-content" id="popup-content">
+            
+            <button class="close-popup" id="close">x</button>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/kanishk.ahuja.549/" class="social-icon" id="facebook"><img src="Facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com/" class="social-icon" id="twitter"><img src="twitter.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/kanishkahuja16/" class="social-icon" id="instagram"><img src="instagram.jpg" alt="Instagram"></a>
+            </div>
+        </div>
+
+    <section id="welcome">
+        <div class="container">
+            <h1 class="enlarge" id="message">Hello, I am Kanishk Ahuja</h1>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="kanishkimage.jpg" alt="Kanishk Ahuja" class="profile-image enlarge">
+            <p>I am Kanishk Ahuja cuurently doing B.Tech in CSE at VIT University, Vellore</p>
+            <p>I am 20 years old and hail from Mumbai, Mahrashtra</p>
+        </div>
+    </section>
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content fly-in" >
+                        <h3>10th ICSE</h3>
+                        <p>Vissanji Academy</p>
+                        <p>Mumbai</p>
+                        <p>2019 - 2020</p>
+                    </div>
+                </div>
+                <div class="timeline-item" >
+                    <div class="timeline-content fly-in" >
+                        <h3>12th Maharashtra Board</h3>
+                        <p>Pace Junior Science College</p>
+                        <p>Mumbai</p>
+                        <p>2020 - 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="hidden">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Java</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 65%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>DSA</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>C++</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 55%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-gallery">
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" placeholder="Your Name">
+            
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" placeholder="Your Email">
+            
+                <label for="message">Your Message:</label>
+                <textarea id="message" placeholder="Your Message"></textarea>
+            
+                <button type="submit">Send Message</button>
+            </form>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kanishk Ahuja</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
