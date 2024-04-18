@@ -40,7 +40,7 @@ body {
     background-color:blue; 
     color: #fff; 
     text-decoration: none;
-    border-radius: 20px; 
+    border-radius: 50px; 
     transition: background-color 0.3s, transform 0.3s ease; 
 }
 .header nav ul li a:hover {
